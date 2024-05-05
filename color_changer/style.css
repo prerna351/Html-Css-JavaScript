@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(63, 63, 63);
+    gap:150px;
+    /* background-color: yellow; */
+    margin: 90px auto 100px; 
+    /* top 90 right and left auto(centering it horizontally bottom 100px) */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(75, 75, 75);
+    display: inline-block;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#white {
+    background: white;
+}
+#blue {
+    background: blue;
+}
+#pink {
+    background: pink;
+}
